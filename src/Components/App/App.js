@@ -34,16 +34,16 @@ const App = () => {
   };
   console.log({ screenDefData });
   return (
-    <Box sx={{ display: "flex", justifyContent: "flext-start" }}>
+    <Box sx={{ display: "flex", justifyContent: "space-between" }} p={2}>
       <Box>
         <Button data-screendef="Button" onClick={handleClick}>
           Button
         </Button>
       </Box>
-      <Box>
+      <Box p={2}>
         <ScreenSmith definition={screenDefData} />
       </Box>
-      <Box>{screenDefString}</Box>
+      <Box p={2}>{screenDefString}</Box>
     </Box>
   );
 };
