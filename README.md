@@ -1,6 +1,10 @@
-# Getting Started with Create React App
+# Getting Started with ScreenSmith
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Screensmith
+
+Screensmith is a WYSIWYG editor that accepts a map of a projects components and allows editors to build a "screen".
 
 ## Available Scripts
 

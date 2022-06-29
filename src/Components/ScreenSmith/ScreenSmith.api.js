@@ -1,0 +1,52 @@
+// MUI components
+import {
+  Accordion,
+  AccordionSummary,
+  AccordionDetails,
+  Alert,
+  Box,
+  Button,
+  Divider,
+  FormControl,
+  FormControlLabel,
+  FormLabel,
+  Grid,
+  IconButton,
+  Link,
+  Modal,
+  MenuItem,
+  Paper,
+  Radio,
+  RadioGroup,
+  Tab,
+  Tabs,
+  Typography,
+} from "@mui/material";
+import { DataGrid } from "@mui/x-data-grid";
+
+const frameworkComponents = {
+  Accordion,
+  AccordionSummary,
+  AccordionDetails,
+  Alert,
+  Box,
+  Button,
+  Divider,
+  FormControl,
+  FormControlLabel,
+  FormLabel,
+  Grid,
+  IconButton,
+  Link,
+  Modal,
+  MenuItem,
+  Paper,
+  Radio,
+  RadioGroup,
+  Tab,
+  Tabs,
+  Typography,
+  DataGrid,
+};
+
+export { frameworkComponents };
